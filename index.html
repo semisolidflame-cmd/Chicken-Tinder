@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dinner Swipe</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg"><link rel="apple-touch-icon" href="icon-192.png">
+<meta name="theme-color" content="#14302b"><meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<header><h1>Dinner Swipe</h1><button id="roomPill" hidden></button></header>
+<main id="main"></main>
+<footer>Place data and photos from Google Maps</footer>
+<script type="module">
+import("./app.js").catch(e=>{document.getElementById("main").innerHTML='<div style="margin:auto 0;text-align:center"><h2>Dinner Swipe could not start</h2><p>'+String(e.message||e).replace(/</g,"&lt;")+'</p><p style="opacity:.7">Check that app.js and config.js were uploaded next to index.html and that config.js has no typos.</p></div>'});
+</script>
+</body></html>
