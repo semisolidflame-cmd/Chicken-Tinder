@@ -10,5 +10,7 @@
 <header><h1>Dinner Swipe</h1><button id="roomPill" hidden></button></header>
 <main id="main"></main>
 <footer>Place data and photos from Google Maps</footer>
-<script type="module" src="app.js"></script>
+<script type="module">
+import("./app.js").catch(e=>{document.getElementById("main").innerHTML='<div style="margin:auto 0;text-align:center"><h2>Dinner Swipe could not start</h2><p>'+String(e.message||e).replace(/</g,"&lt;")+'</p><p style="opacity:.7">Check that app.js and config.js were uploaded next to index.html and that config.js has no typos.</p></div>'});
+</script>
 </body></html>
