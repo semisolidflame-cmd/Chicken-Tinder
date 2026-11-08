@@ -1,9 +1,9 @@
 // Fill these in (see README.md). Restrict both keys to your site's address.
 export const CONFIG = {
-  PLACES_KEY: "YOUR_GOOGLE_PLACES_API_KEY",
+  PLACES_KEY: AIzaSyCNf3LS09rwgMdsfyV4iPlZiL30GIxAGsQ,
   FIREBASE: {
-    apiKey: "YOUR_FIREBASE_API_KEY",
-    databaseURL: "https://YOUR-PROJECT-default-rtdb.firebaseio.com",
-    projectId: "YOUR-PROJECT"
+    apiKey: AIzaSyALMrMDKqhdp4OCbVMjtc1KVkfCcandcHY,
+    databaseURL: https://chicken-tinder-e4934-default-rtdb.firebaseio.com,
+    projectId: chicken-tinder-e4934
   }
 };
